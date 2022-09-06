@@ -86,8 +86,16 @@ a:hover {
   color: #ffffff;
 }
 
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23309054' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23309054' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 .text-primary {
-  color: #22087c !important;
+  color: #309054 !important;
 }
 
 a.text-primary {
@@ -1018,7 +1026,7 @@ h4,
 
 .untree_co-hero,
 .untree_co-hero > .container > .row {
-  padding: 6rem 0;
+  padding-top: 3rem;
 }
 
 @media (max-width: 991.98px) {
