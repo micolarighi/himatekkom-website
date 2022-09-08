@@ -71,6 +71,11 @@ a {
   transition: 0.3s all ease;
 }
 
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 a:hover {
   color: #309054;
   text-decoration: none;
@@ -1078,13 +1083,13 @@ h4,
 }
 
 .untree_co-section {
-  padding: 100px 0;
+  padding: 50px 0;
   position: relative;
 }
 
 @media (max-width: 991.98px) {
   .untree_co-section {
-    padding: 50px 0;
+    padding: 20px 0;
   }
 }
 
