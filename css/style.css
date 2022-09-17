@@ -112,6 +112,13 @@ a.text-primary:hover {
   color: #309054 !important;
 }
 
+input:focus,
+form:focus,
+textarea:focus {
+  border: solid #309054 !important;
+  outline: none;
+}
+
 h1,
 .h1,
 h2,
@@ -1095,7 +1102,7 @@ h4,
 }
 
 .untree_co-section .heading {
-  font-size: 38px;
+  font-size: 34px;
   color: #000000;
   font-weight: 600;
 }
@@ -1106,7 +1113,7 @@ h4,
 
 @media (max-width: 991.98px) {
   .untree_co-section .heading {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
@@ -2091,7 +2098,6 @@ h4,
 }
 
 .site-footer .widget .links {
-  
 }
 
 .site-footer .widget .links li {
