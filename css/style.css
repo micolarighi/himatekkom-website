@@ -36,6 +36,25 @@ body:before {
   transition: 0.3s all ease;
 }
 
+
+.nav-menu-text {
+  font-size: 10px;
+}
+
+.carousel-banner {
+  background-image: url('/images/banner-desktop.png');
+  background-size: cover;
+  height: 60vh;
+}
+@media (max-width: 991.98px) {
+ .carousel-banner {
+  background-image: url('/images/banner-mobile.png');
+  height: 80vh;
+  }
+}
+
+
+
 span {
   color: #034732 !important;
 }
@@ -109,11 +128,11 @@ a:hover {
 }
 
 .text-primary {
-  color: #309054 !important;
+  color: #034732 !important;
 }
 
 a.text-primary {
-  color: #309054 !important;
+  color: #034732 !important;
 }
 
 a.text-primary:hover {
