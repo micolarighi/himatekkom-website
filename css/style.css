@@ -1,6 +1,6 @@
 :root {
-  --primary: #309054 !important;
-  --secondary: #44cc77 !important;
+  --primary: #034732 !important;
+  --secondary: #008148 !important;
 }
 
 html,
@@ -34,6 +34,11 @@ body:before {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
 }
 
 body.offcanvas-menu:before {
