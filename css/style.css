@@ -1,6 +1,8 @@
 :root {
   --primary: #034732 !important;
   --secondary: #008148 !important;
+  --dark: #001811;
+  
 }
 
 html,
@@ -74,6 +76,10 @@ body.offcanvas-menu:before {
 
 .bg-primary {
   background: var(--primary) !important;
+}
+
+.bg-dark {
+  background: var(--dark) !important;
 }
 
 .bg-primary-light {
@@ -1118,7 +1124,8 @@ h4,
 }
 
 .untree_co-section {
-  padding: 50px 0;
+  padding-top: 50px !important;
+  padding-bottom: 0 !important;
   position: relative;
 }
 
