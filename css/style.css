@@ -44,18 +44,29 @@ body:before {
 }
 
 .carousel-banner {
-  background-image: url('/images/banner-desktop.png');
-  background-size: cover;
-  height: 60vh;
-}
-@media (max-width: 991.98px) {
- .carousel-banner {
   background-image: url('/images/banner-mobile.png');
-  height: 80vh;
+  background-size: cover;
+  height: 84vh;
+}
+
+
+@media (min-width: 620px) {
+ .carousel-banner {
+   background-image: url('/images/banner-desktop.png');
+   height: 64vh;
   }
 }
 
+@media (min-width: 991.98px) {
+  .carousel-banner {
+    background-image: url('/images/banner-desktop.png');
+    height: 83vh;
+   }
+ }
 
+.carousel-inner {
+  max-height: 100%;
+}
 
 span {
   color: #034732 !important;
@@ -904,6 +915,14 @@ h4,
   width: 100%;
 }
 
+.navbar-brand {
+  font-size: 20px;
+}
+
+.navbar-toggler {
+  font-size: 12px;
+}
+
 .sticky-wrapper .site-navbar {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -1124,8 +1143,8 @@ h4,
 }
 
 .untree_co-section {
-  padding-top: 50px !important;
-  padding-bottom: 0 !important;
+  padding-top: 40px !important;
+  padding-bottom: 20 !important;
   position: relative;
 }
 
@@ -1324,6 +1343,7 @@ h4,
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 }
 
@@ -1333,11 +1353,13 @@ h4,
   background: #ffffff;
   border-radius: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 25px;
-  text-align: center;
+  text-align: start;
 }
+
+
 
 
 .pricing .body .price .price {
